@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="social">
-        <div class="btn">
+        <div class="btn rounded-0 ">
             <strong>SIGN-UP NOW</strong>
         </div>
         <div class="followUs">

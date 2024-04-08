@@ -111,30 +111,32 @@ return [
             "type" => "graphic novel",
         ]
     ],
-
-    'link' => [
-        [
-            'img' => '../../public/buy-comics-digital-comics.png',
-            'name'=> 'DIGITALS COMICS',
-        ],
-        [
-            'img' => '../../public/buy-comics-merchandise.png',
-            'name'=> 'DC MERCHANDISE',
-        ],
-        [
-            'img' => '../../public/buy-comics-subscriptions.png',
-            'name'=> 'SUBSCRITION',
-        ],
-        [
-            'img' => '../../public/buy-comics-shop-locator.png',
-            'name'=> 'COMIC SHOP LOCATOR',
-        ],
-        [
-            'img' => '../../public/buy-dc-power-visa.svg',
-            'name'=> 'DC POWER VISA',
-        ]
-    ]
     
-]
+    'links' => [
+
+        [
+            "img" => 'resources/img/buy-comics-digital-comics.png',
+            "name" => 'DIGITALS COMICS',
+        ],
+        [
+            "img" => 'resources/img/buy-comics-merchandise.png',
+            "name" => 'DC MERCHANDISE',
+        ],
+        [
+            "img" => 'resources/img/buy-comics-subscriptions.png',
+            "name" => 'SUBSCRITION',
+        ],
+        [
+            "img" => 'resources/img/buy-comics-shop-locator.png',
+            "name" => 'COMIC SHOP LOCATOR',
+        ],
+        [
+            "img" => 'resources/img/buy-dc-power-visa.svg',
+            "name" => 'DC POWER VISA',
+        ]
+
+
+    ] 
+];
 
 ?>
