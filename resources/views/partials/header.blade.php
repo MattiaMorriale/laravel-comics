@@ -22,7 +22,7 @@
 
 </div>
 
-<div class="main">
+<div class="box-jumbo">
     <div class="jumbo">
 
     </div>
