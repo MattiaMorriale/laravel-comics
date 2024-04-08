@@ -1,0 +1,94 @@
+@use './variables' as *;
+
+
+.nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    width: 100%;
+
+    .nav-container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 80%;
+
+        .logo{
+
+            height: 80px;
+            width: 80px;
+
+            margin: 20px 0;
+
+            img{
+
+                height: 100%;
+                width: 100%;
+
+            }
+
+        }
+
+        .list{
+
+            height: 100%;
+            
+            ul{
+
+                display: flex;
+                flex-wrap: wrap;
+                gap: 35px;
+            
+                list-style-type: none;
+
+                color: black;
+
+                li{
+                    padding: 46px 0;
+
+                    font-weight: bold;
+
+                    user-select: none;
+                    cursor: pointer;
+
+                    &.active{
+
+                        color: $primarycolor;
+
+                        border-bottom: 5px solid $primarycolor;
+
+                    }
+
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .jumbo{
+        background-image: url('/resources/img/jumbotron.jpg');
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+}
