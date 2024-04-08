@@ -1,0 +1,172 @@
+@use './variables' as *;
+
+
+.main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .main-content{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 100%;
+
+        background-color: #1c1c1c;
+
+    
+
+        .link{
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            position: relative;
+
+            gap: 10px;
+
+            width: 80%;
+
+            padding: 50px 0 25px 0;
+
+            .comics{
+                width: calc(100% / 6 - 20px / 6 * 5);
+            
+                margin-bottom: 25px;
+            
+                .img-box{
+            
+                    height: 190px;
+                    width: 100%;
+            
+                    display: flex;
+                    justify-content: center;
+            
+                    margin-bottom: 10px;
+                    
+                    img{
+                        height: 190px;
+                        width: 190px;
+                
+                        object-fit: cover;
+                        object-position: top;
+                
+                    }
+                }
+            
+                .text{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+            
+                    h4{
+                        color: white;
+                        width: 190px;
+
+                        
+
+                    }
+                }
+            }
+
+            .btn-abs{
+                background-color: $primarycolor;
+
+                padding: 15px 60px;
+
+                position: absolute;
+
+                cursor: pointer;
+
+                left: 0;
+                top: -28px;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }   
+
+        }
+
+        .btn{
+            background-color: $primarycolor;
+
+            padding: 15px 60px;
+
+            margin-bottom: 20px;
+
+            cursor: pointer;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .merch{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        
+        background-color: $primarycolor;
+        
+        padding: 50px 0;
+        
+        .list{
+        
+            width: 80%;
+        
+        
+            ul{
+        
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        
+                list-style-type: none;
+        
+                li{
+        
+                    user-select: none;
+                    cursor: pointer;
+        
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+        
+                    gap: 15px;
+        
+                    padding: 0 25px;
+
+                    color: white;
+        
+                    .box-img{
+                        height: 65px;
+        
+                        img{
+                            height: 100%;
+                        }
+        
+                    }
+        
+        
+                }
+            }
+        
+        }
+        
+    }
+        
+
+}
